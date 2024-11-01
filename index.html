@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi primera Web</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@400&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/c30e5579a6.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../formulario/formulario.html"><i class="fa-solid fa-bicycle"></i></a>
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#acerca">Acerca de mí</a></li>
+          <li><a href="#lugares">Lugares</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="seccion-principal">
+      <section class="seccion-1">
+        <div class="acerca-de">
+          <h2 class="fuente-acento">Acerca de mi</h2>
+          <p class="parrafo1">
+            ¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.
+          </p>
+          <p class="parrafo2">
+            Me llamo Alejandro, vivo en Ibagué. Practico ciclomontañismo y senderismo. Me encantaría aprender a
+            programar para poder ayudar a las personas a mostrar lo que hacen.
+          </p>
+        </div>
+        <div class="acerca-imagen">
+          <img src="silencio.jpg" alt="Imagen de Alejandro" />
+        </div>
+      </section>
+      <section class="seccion-frases">
+        <h2>Generador de frases Aleatorias</h2>
+        <div class="phrase" id="frase">Haz click en el botón para generar una frase.</div>
+        <button id="btn-generar">Generar Frase</button>
+      </section>
+      <section class="seccion-2">
+        <img src="panoramica.JPG" alt="Imagen de panorámica" />
+      </section>
+      <section class="seccion-3">
+        <h2>Lugares</h2>
+        <div class="centro">
+          <div class="contenedor">
+            <h3>Cañon del Combeima</h3>
+            <img src="canon.jpeg" alt="Cañon del Combeima" />
+            <p>
+              El Cañón del Combeima se encuentra en Colombia, cerca de la ciudad de Ibagué, en el departamento del
+              Tolima. Es conocido por su belleza natural, con paisajes montañosos, ríos y una biodiversidad
+              impresionante. El cañón es un destino popular para los amantes del ecoturismo y las actividades al aire
+              libre, como el senderismo y la observación de aves.
+            </p>
+            <a href="#combeima">Ver más</a>
+          </div>
+          <div class="contenedor">
+            <h3>Cascada La Plata</h3>
+            <img src="plata.jpeg" alt="Cascada La Plata" />
+            <p>
+              La Cascada La Plata es una hermosa caída de agua ubicada en la vereda La Plata, cerca de Ibagué, Tolima.
+              Es un destino popular para los amantes de la naturaleza y el ecoturismo.
+            </p>
+            <a href="#cascada">Ver más</a>
+          </div>
+          <div class="contenedor">
+            <h3>Cerro Juan Beima</h3>
+            <img src="beima.jpg" alt="Cerro Juan Beima" />
+            <p>
+              El Cerro Juan Beima es una elevación ubicada cerca de Ibagué, Tolima. Es un lugar popular entre los
+              amantes del senderismo y la naturaleza, ya que ofrece vistas panorámicas espectaculares de la ciudad y sus
+              alrededores.
+            </p>
+            <a href="#cerro">Ver más</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h2>Contacto</h2>
+      <nav>
+        <ul>
+          <li><a href="#instagram"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+          <li><a href="#tiktok"><i class="fa-brands fa-tiktok"></i> TikTok</a></li>
+          <li><a href="#whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </div>
+</body>
+</html>
